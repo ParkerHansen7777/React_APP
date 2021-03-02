@@ -1,4 +1,4 @@
-#nav {
+#navbar {
 	width: 100%;
 	float: left;
 	margin: 0 0 3em 0;
@@ -7,15 +7,15 @@
 	background-color: #008bfd;
 	border-bottom: 1px solid rgb(59, 59, 59); 
 	border-top: 1px solid rgb(59, 59, 59); }
-#nav li {
-	float: left; }
-#nav li a {
+
+#barbutton {
+	float: left;
 	display: block;
 	padding: 8px 15px;
 	text-decoration: none;
 	font-weight: bold;
 	color: rgb(255, 255, 255);
 	border-right: 1px solid rgb(59, 59, 59); }
-#nav li a:hover {
+#barbutton:hover {
 	color: #008bfd;
 	background-color: #fff; }

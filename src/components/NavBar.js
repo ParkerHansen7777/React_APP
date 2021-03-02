@@ -6,10 +6,11 @@ import { NavLink } from 'react-router-dom';
         return (
             <header>
             <div>
-              <ul id="nav">
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="./Resume">Resume</NavLink>
-                <NavLink to="/Portfolio">Portfolio</NavLink>
+              <ul id="navbar">
+                <div id ="barbutton"><NavLink to="/">Home</NavLink></div>
+                <div id = "barbutton"><NavLink to="./Resume">Resume</NavLink></div>
+                <div id = "barbutton"><NavLink to="/Portfolio">Portfolio</NavLink></div>
+                
               </ul>
             </div>
             </header>
