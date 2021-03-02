@@ -2,13 +2,13 @@ import React from 'react';
 
 
 
-class Resume extends React.Component{
+class Portfolio extends React.Component{
 render(){
     return(
     
     <   div>
             <body>
-                <h1>Welcome to my Resume</h1>
+                <h1>Welcome to my Portfolio</h1>
             </body>
         </div>
     
@@ -20,4 +20,4 @@ render(){
     }   
 }
 
-export default Resume
+export default Portfolio
