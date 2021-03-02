@@ -1,3 +1,4 @@
+
 #navbar {
 	width: 100%;
 	float: left;
@@ -18,4 +19,4 @@
 	border-right: 1px solid rgb(59, 59, 59); }
 #barbutton:hover {
 	color: #008bfd;
-	background-color: #fff; }
+	background-color: rgb(255, 255, 255); }

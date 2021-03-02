@@ -9,7 +9,6 @@ function App() {
   return (
   <BrowserRouter> 
     <NavBar />
-    <div>
       <Switch>
         <Route exact path ="/">
           <Home />
@@ -21,7 +20,6 @@ function App() {
           <Portfolio />
         </Route>
       </Switch>
-    </div>
     </BrowserRouter> 
   );
 }

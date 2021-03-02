@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
  class NavBar extends React.Component{
     render() {
         return (
-            <header>
+            
             <div>
               <ul id="navbar">
                 <div id ="barbutton"><NavLink to="/">Home</NavLink></div>
@@ -13,7 +13,7 @@ import { NavLink } from 'react-router-dom';
                 
               </ul>
             </div>
-            </header>
+            
         );
     }
 }
