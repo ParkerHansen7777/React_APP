@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Resume.css';
 
 
 class Resume extends React.Component{

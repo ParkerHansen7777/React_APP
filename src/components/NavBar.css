@@ -8,15 +8,19 @@
 	background-color: #008bfd;
 	border-bottom: 1px solid rgb(59, 59, 59); 
 	border-top: 1px solid rgb(59, 59, 59); }
+	
 
-#barbutton {
+.link {
 	float: left;
 	display: block;
 	padding: 8px 15px;
 	text-decoration: none;
 	font-weight: bold;
 	color: rgb(255, 255, 255);
-	border-right: 1px solid rgb(59, 59, 59); }
-#barbutton:hover {
+	border-right: 1px solid rgb(59, 59, 59);  }
+.link:hover{
+
 	color: #008bfd;
-	background-color: rgb(255, 255, 255); }
+	background-color: rgb(255, 255, 255);
+
+}
