@@ -1,13 +1,11 @@
 import React from 'react';
 import './Resume.css';
-import { Document, Page } from 'react-pdf';
-import pdf from './ParkerHansenResume.pdf';
 class Resume extends React.Component{
 
     render(){
     return(
     
-    <   div>
+    <   div class="head2">
             <body>
                 <h1>Welcome to my Resume</h1>
                 

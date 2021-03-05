@@ -2,7 +2,8 @@
 #navbar {
 	width: 100%;
 	float: left;
-	margin: 0 0 3em 0;
+	text-align: center;
+	margin: 0 0 0 0;
 	padding: 0;
 	list-style: none;
 	background-color: #008bfd;
@@ -13,6 +14,7 @@
 .link {
 	float: left;
 	display: block;
+	text-align: center;
 	padding: 8px 15px;
 	text-decoration: none;
 	font-weight: bold;

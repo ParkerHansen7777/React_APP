@@ -6,7 +6,7 @@ class Portfolio extends React.Component{
 render(){
     return(
     
-    <   div>
+    <   div class = "head1">
             <body>
                 <h1>Welcome to my Portfolio</h1>
             </body>
