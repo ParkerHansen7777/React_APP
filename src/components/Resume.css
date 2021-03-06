@@ -1,8 +1,9 @@
 .head2{
 
-
+    border-top: 8px;
+    padding-top: 35px;
     text-align: center;
-    background-color: rgb(212, 194, 27)
-
+    color: white;
+    background-color: black;
 
 }

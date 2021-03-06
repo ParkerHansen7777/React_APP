@@ -1,5 +1,6 @@
 
 #navbar {
+	position: fixed;
 	width: 100%;
 	float: left;
 	text-align: center;
@@ -7,19 +8,19 @@
 	padding: 0;
 	list-style: none;
 	background-color: #008bfd;
-	border-bottom: 1px solid rgb(59, 59, 59); 
-	border-top: 1px solid rgb(59, 59, 59); }
+	border-bottom: 3px solid rgb(9, 93, 161); 
+	border-top: 3px solid rgb(9, 93, 161); }
 	
 
 .link {
 	float: left;
 	display: block;
 	text-align: center;
-	padding: 8px 15px;
+	padding: 8px 100px;
 	text-decoration: none;
 	font-weight: bold;
 	color: rgb(255, 255, 255);
-	border-right: 1px solid rgb(59, 59, 59);  }
+	border-right: 3px solid rgb(9, 93, 161);  }
 .link:hover{
 
 	color: #008bfd;
@@ -29,6 +30,6 @@
 
 .selected{
 
-	color : black;
+	color : goldenrod;
 
 }
