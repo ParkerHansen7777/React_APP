@@ -7,9 +7,9 @@ render(){
     return(
     
     <   div class = "head1">
-            <body>
+            
                 <h1>Welcome to my Portfolio</h1>
-            </body>
+            
         </div>
     
     

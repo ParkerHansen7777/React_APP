@@ -10,13 +10,13 @@ class Resume extends React.Component{
     return(
     
     <div class="head2">
-            <body>
+            
                 <h1>Welcome to my Resume</h1>
                 <SinglePage pdf={samplePDF} />
 
                 <hr />
             
-            </body>
+            
         </div>
      );
 
