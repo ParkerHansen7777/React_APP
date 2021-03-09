@@ -15,14 +15,14 @@ function App() {
         <Route path ="/Home">
           <Home />
         </Route>
-        <Route path = "/Resume">
+        <Route path ="/Resume">
           <Resume />
         </Route>
-        <Route path = "/Portfolio">
+        <Route path ="/Portfolio">
           <Portfolio />
         </Route>
       </Switch>
-    </BrowserRouter> 
+  </BrowserRouter> 
   );
 }
 
