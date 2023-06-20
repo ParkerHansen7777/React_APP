@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
               <ul id="navbar">
                 <NavLink className = "link" activeClassName="selected" to="/Home">Home</NavLink>
                 <NavLink className = "link" activeClassName="selected" to="/Resume">Resume</NavLink>
-                <NavLink className = "link" activeClassName="selected" to="/Portfolio">Portfolio</NavLink>
+                
                 
               </ul>
             </div>
