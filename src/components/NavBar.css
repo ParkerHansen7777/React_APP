@@ -7,23 +7,24 @@
 	margin: 0 0 0 0;
 	padding: 0;
 	list-style: none;
-	background-color: #008bfd;
-	border-bottom: 3px solid rgb(9, 93, 161); 
-	border-top: 3px solid rgb(9, 93, 161); }
+	background-color: rgb(55, 85, 253);
+	border-bottom: 3px solid rgb(32, 48, 139); 
+	border-top: 3px solid rgb(32, 48, 139); }
 	
 
 .link {
-	float: left;
-	display: block;
+	
+	display: inline-block;
 	text-align: center;
 	padding: 4px 50px;
 	text-decoration: none;
 	font-weight: bold;
 	color: rgb(255, 255, 255);
-	border-right: 3px solid rgb(9, 93, 161);  }
+	
+}
 .link:hover{
 
-	color: #008bfd;
+	color: rgb(40, 62, 188);
 	background-color: rgb(255, 255, 255);
 
 }
