@@ -13,6 +13,12 @@ render(){
                 <button class="button1"><a href = "https://github.com/ParkerHansen7777?tab=repositories" target="_blank" rel="noreferrer">GitHub</a></button>
                 <button class="button2"><a href = "https://github.com/ParkerHansen7777/React_APP" target="_blank" rel="noreferrer">React App Repo</a></button>
                 <button class="button3"><a href = "https://www.linkedin.com/in/parkerhansen/" target="_blank"rel="noreferrer">LinkedIn</a></button>
+                <h2 class="links">Links to my other projects:</h2>
+                <ul>
+                    <li>Luxury Autos Car Dealership</li>
+                    <li>Task Manager</li>
+                    <li>Game Tracker</li>
+                </ul>
         </body>
     
     );
