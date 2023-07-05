@@ -14,11 +14,9 @@ render(){
                 <button class="button2"><a href = "https://github.com/ParkerHansen7777/React_APP" target="_blank" rel="noreferrer">React App Repo</a></button>
                 <button class="button3"><a href = "https://www.linkedin.com/in/parkerhansen/" target="_blank"rel="noreferrer">LinkedIn</a></button>
                 <h2 class="links">Links to my other projects:</h2>
-                <ul>
-                    <li>Luxury Autos Car Dealership</li>
-                    <li>Task Manager</li>
-                    <li>Game Tracker</li>
-                </ul>
+                    <a href = "https://cardealer-frontend.onrender.com">Luxury Autos Car Dealership</a>
+                    <a href = "https://taskmanager-frontend-8dip.onrender.com">Task Manager</a>
+                    <a href = "https://gametracker-frontend.onrender.com">Game Tracker</a>
         </body>
     
     );
