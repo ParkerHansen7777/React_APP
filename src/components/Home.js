@@ -17,6 +17,7 @@ render(){
                     <a href = "https://cardealer-frontend.onrender.com">Luxury Autos Car Dealership</a>
                     <a href = "https://taskmanager-frontend-8dip.onrender.com">Task Manager</a>
                     <a href = "https://gametracker-frontend.onrender.com">Game Tracker</a>
+                    <footer className="Page-footer"><span>Created by Parker (© 2021)</span></footer>
         </body>
     
     );

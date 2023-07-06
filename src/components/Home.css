@@ -49,3 +49,13 @@ body{
 .links{
     padding-top: 20px;
 }
+
+.Page-footer {
+	background: #838383;
+    padding: 15px 10px;
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+	width: 100%;
+	text-align: center;
+}

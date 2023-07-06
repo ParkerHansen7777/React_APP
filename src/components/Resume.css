@@ -6,3 +6,13 @@ body{
     background-color: rgb(40, 62, 188);
 
 }
+
+.Page-footer {
+	background: #838383;
+    padding: 15px 10px;
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+	width: 100%;
+	text-align: center;
+}

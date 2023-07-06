@@ -14,6 +14,7 @@ class Resume extends React.Component{
             <h1>Welcome to my Resume</h1>
             <SinglePage pdf={resumePDF} />
             
+            <footer className="Page-footer"><span>Created by Parker (© 2021)</span></footer>
         </body>
      );
 
