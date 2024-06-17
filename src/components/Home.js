@@ -8,6 +8,7 @@ render(){
     
         <body>
                 <h1>Hello, my name is Parker Hansen</h1>
+                <img src="linkedinPfp.jpg" alt="Picture of Parker Hansen"/>
                 <br/>
                 <p>I'm a software developer based in Los Angeles, California.</p>
                 <button class="button1"><a href = "https://github.com/ParkerHansen7777?tab=repositories" target="_blank" rel="noreferrer">GitHub</a></button>
