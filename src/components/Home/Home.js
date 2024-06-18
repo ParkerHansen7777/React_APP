@@ -15,9 +15,9 @@ render(){
                 
                 <div class='flex-item'>              
                     <img src ={profile} alt="of Parker"/>
-                    <p>I'm a software developer based in Los Angeles, California.</p>
+                    <p>I'm a software developer based in Los Angeles, California. I love to problem solve.</p>
                     <button class="button1"><a href = "https://github.com/ParkerHansen7777?tab=repositories" target="_blank" rel="noreferrer">GitHub</a></button>
-                    <button class="button2"><a href = "https://github.com/ParkerHansen7777/React_APP" target="_blank" rel="noreferrer">React App Repo</a></button>
+                    <button class="button2"><a href = "https://github.com/ParkerHansen7777/React_APP" target="_blank" rel="noreferrer">Portfolio App Repo</a></button>
                     <button class="button3"><a href = "https://www.linkedin.com/in/parkerhansen/" target="_blank"rel="noreferrer">LinkedIn</a></button>
                 </div>
                 
