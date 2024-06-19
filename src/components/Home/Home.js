@@ -15,7 +15,7 @@ render(){
                 <div class='flex-item'>              
                     <img src ={profile} alt="of Parker"/>
                     <p>I'm a software developer based in Los Angeles, California. I have experience with languages and frameworks such as, C, C++, Python, JavaScript, Java, React.JS, Node.JS, SQL. 
-                        I currently freelancing, training AI with a focus on software development. I've created multiple projects React with some being full stack, i've even made a minecraft mod with Java!. 
+                        I'm currently freelancing, training AI with a focus on software development. I've created multiple projects React with some being full stack, I've even made a Minecraft mod with Java!. 
                         I love to problem solve. </p>
                 </div>    
                 <div class='flex-item'>    
