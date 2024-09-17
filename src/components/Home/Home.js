@@ -3,8 +3,8 @@ import './Home.css';
 import profile from './linkedinPfp.jpg';
 
 
-class Home extends React.Component{
-render(){
+export default function Home(){
+
     return(
     
         <div class='p-body'>
@@ -35,7 +35,7 @@ render(){
         </div>
     
     );
- }   
+    
 }
 
-export default Home
+

@@ -4,9 +4,9 @@ import SinglePage from "./SinglePage/SinglePage";
 import resumePDF from "./ParkerHansenResume.pdf";
 
 
-class Resume extends React.Component{
+export default function Resume(){
 
-    render(){
+    
     return(
     
         <div class="p-body">
@@ -19,7 +19,5 @@ class Resume extends React.Component{
      );
 
 
-    }   
+    
 }
-
-export default Resume
