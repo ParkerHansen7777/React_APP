@@ -1,23 +1,23 @@
 import React from 'react';
-import NavBar from './components/NavBar/NavBar';
-
+//import NavBar from './components/NavBar/NavBar';
+import './Npp.css';
 export default function Npp(){
 
     return(
         <>
-            <div className='container'>
+            <section>
                 <h1>Hello, my name is Parker Hansen....</h1>
                 <span>Scroll down</span>
                 <span>\/</span>
-            </div>
+            </section>
             
-            <div className='container'>
+            <section>
                 <img />
                 <h1>About me</h1>
                 <p>this is all about me</p>
-            </div>
+            </section>
             
-            <div className='container'>
+            <section>
                 <h1>Projects i've worked on</h1>
                 <img />
                 <ul>
@@ -35,7 +35,7 @@ export default function Npp(){
                 <ul>
                     <li><a>im a link</a></li>
                 </ul>
-            </div>
+            </section> 
         </>
     )
 }
