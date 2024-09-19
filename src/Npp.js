@@ -1,6 +1,7 @@
 import React from 'react';
 //import NavBar from './components/NavBar/NavBar';
 import './Npp.css';
+import profile from './components/Home/linkedinPfp.jpg';
 export default function Npp(){
 
     return(
@@ -12,13 +13,18 @@ export default function Npp(){
             </section>
             
             <section>
-                <img />
-                <h1>About me</h1>
-                <p>this is all about me</p>
+                <div className='container-row'>
+                    <img src={profile} style={{width: "400px", padding: "10px"}}/>
+                    <div style={{width: "400px", padding: "10px"}}>
+                        <h1>About me</h1>
+                        <p>this is all about me</p>
+                    </div>
+                </div>
             </section>
             
             <section>
                 <h1>Projects i've worked on</h1>
+                <div className='container-row'>
                 <img />
                 <ul>
                     <li><a>im a link</a></li>
@@ -35,6 +41,10 @@ export default function Npp(){
                 <ul>
                     <li><a>im a link</a></li>
                 </ul>
+                </div>
+                <a href = "https://github.com/ParkerHansen7777?tab=repositories" target="_blank" rel="noreferrer">Github</a>
+                <a href = "https://www.linkedin.com/in/parkerhansen/" target="_blank"rel="noreferrer">LinkedIn</a>
+                <a href = "https://github.com/ParkerHansen7777/React_APP" target="_blank" rel="noreferrer">Portfolio Repository</a>
             </section> 
         </>
     )
