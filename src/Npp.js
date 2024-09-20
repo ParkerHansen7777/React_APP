@@ -17,8 +17,8 @@ export default function Npp(){
             
             <section>
                 <div className='container-row'>
-                    <img src={profile} style={{width: "400px", padding: "10px"}}/>
-                    <div style={{width: "400px", padding: "10px"}}>
+                    <img src={profile} style={{height: '400px', width: "400px", padding: "10px"}}/>
+                    <div >
                         <h1>About me</h1>
                         <p>this is all about me</p>
                     </div>
@@ -28,23 +28,29 @@ export default function Npp(){
             <section>
                 <h1>Projects i've worked on</h1>
                 <div className='container-row'>
-                    <h2>Chess Game Tracker</h2>
-                    <img src={ctPic} alt="Chess Game Tracker"/>
-                    <ul>
-                        <li><a>im a link</a></li>
-                    </ul>
-                    <h2>Task Manager</h2>
-                    <img src={tmPic} alt="Task Manager"/>
-                    <ul>
-                        <li><a>im a link</a></li>
-                    </ul>
-                    <h2>Luxury Autos Car Dealership Catalog</h2>
-                    <img src={laPic} alt="Luxury Autos Car Dealership Catalog"/>
-                    <ul>
-                        <li><a>im a link</a></li>
-                    </ul>
-                    <h2>Minecraft: Pizza Mod</h2>
-                    <img alt="Minecraft: Pizza Mod"/>
+                    <div className='item'>
+                        <h2>Chess Game Tracker</h2>
+                        <img src={ctPic} alt="Chess Game Tracker"/>
+                        
+                        <a href='https://gametracker-frontend.onrender.com/' style={{display: 'block'}}>Deployed HERE *CLICK ME*</a>
+                        
+                    </div>
+                    <div className='item'>
+                        <h2>Task Manager</h2>
+                        <img src={tmPic} alt="Task Manager"/>
+                        <a href='https://taskmanager-frontend-8dip.onrender.com/' style={{display: 'block'}}>Deployed HERE *CLICK ME*</a>
+                        
+                    </div>
+                    <div className='item'>
+                        <h2>Car Dealership Catalog</h2>
+                        <img src={laPic} alt="Car Dealership Catalog"/>
+                        <a href='https://cardealer-frontend.onrender.com/' style={{display: 'block'}}>Deployed HERE *CLICK ME*</a>
+                        
+                    </div>
+                    <div className='item'>
+                        <h2>Minecraft: Pizza Mod</h2>
+                        <img alt="Minecraft: Pizza Mod"/>
+                    </div>
                 </div>
                 <a href = "https://github.com/ParkerHansen7777?tab=repositories" target="_blank" rel="noreferrer">Github</a>
                 <a href = "https://www.linkedin.com/in/parkerhansen/" target="_blank"rel="noreferrer">LinkedIn</a>
