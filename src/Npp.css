@@ -41,3 +41,8 @@ html, body, section {
     display: flex;
     flex-direction: column;
   }
+
+  img{
+    width: 200px;
+    height: 110px;
+  }
