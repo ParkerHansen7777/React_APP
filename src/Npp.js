@@ -5,6 +5,7 @@ import profile from './components/Home/linkedinPfp.jpg';
 import tmPic from './pictures/task-manager.png'
 import laPic from './pictures/luxury-autos.png'
 import ctPic from './pictures/chess-tracker.png'
+import mPPic from './pictures/minecraft-pizza.png'
 export default function Npp(){
 
     return(
@@ -17,7 +18,7 @@ export default function Npp(){
             
             <section>
                 <div className='container-row'>
-                    <img src={profile} style={{height: '400px', width: "400px", padding: "10px"}}/>
+                    <img src={profile} style={{height: '400px', width: "400px", padding: "10px"}} alt="Parker"/>
                     <div >
                         <h1>About me</h1>
                         <p>this is all about me</p>
@@ -49,12 +50,14 @@ export default function Npp(){
                     </div>
                     <div className='item'>
                         <h2>Minecraft: Pizza Mod</h2>
-                        <img alt="Minecraft: Pizza Mod"/>
+                        <img src={mPPic}alt="Minecraft: Pizza Mod"/>
                     </div>
                 </div>
-                <a href = "https://github.com/ParkerHansen7777?tab=repositories" target="_blank" rel="noreferrer">Github</a>
-                <a href = "https://www.linkedin.com/in/parkerhansen/" target="_blank"rel="noreferrer">LinkedIn</a>
-                <a href = "https://github.com/ParkerHansen7777/React_APP" target="_blank" rel="noreferrer">Portfolio Repository</a>
+                
+                    <a href = "https://github.com/ParkerHansen7777?tab=repositories" target="_blank" rel="noreferrer">Github</a>
+                    <a href = "https://www.linkedin.com/in/parkerhansen/" target="_blank"rel="noreferrer">LinkedIn</a>
+                    <a href = "https://github.com/ParkerHansen7777/React_APP" target="_blank" rel="noreferrer">Portfolio Repository</a>
+                
             </section> 
         </>
     )
