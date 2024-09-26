@@ -13,7 +13,7 @@ export default function SinglePage(props) {
         file={pdf}
         options={{ workerSrc: "/pdf.worker.js" }}
       >
-        <Page pageNumber={1} />
+        <Page pageNumber={1} renderAnnotationLayer={false} renderTextLayer={false}/>
       </Document>
       </div>
     </>
