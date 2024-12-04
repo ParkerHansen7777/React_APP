@@ -6,6 +6,10 @@ html {
   scroll-snap-type: y mandatory;
 }
 
+h2 {
+ font-size: larger;
+}
+
 section {
   scroll-snap-align: start;
   scroll-snap-stop: always;
@@ -50,7 +54,7 @@ button{
 .container-row{
   
   display: flex;
-  
+  align-items: flex-start;
 }
 
 .container-col{
