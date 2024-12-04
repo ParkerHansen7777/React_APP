@@ -7,7 +7,7 @@ import wCPic from '../../pictures/wordle-clone.png'
 export default function Projects(){
     return(
         <section style={{justifyContent: "space-around"}}>
-            <h1>Projects i've worked on</h1>
+            <h1>Projects I've worked on</h1>
             <div className='container-row'>
                 <div className='item'>
                     <h2>Wordle Clone</h2>
