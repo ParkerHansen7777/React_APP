@@ -12,6 +12,7 @@ export default function Projects(){
                 <div className='item'>
                     <h2>Wordle Clone</h2>
                     <img src={wCPic}alt="Wordle Clone"/>
+                    <a className='link' href='https://wordle-clone-psi-two.vercel.app/' style={{display: 'block'}}>Deployed HERE *CLICK ME*</a>
                 </div>
                 <div className='item'>
                     <h2>Car Dealership Catalog</h2>
