@@ -4,11 +4,16 @@ import laPic from '../../pictures/luxury-autos.png'
 import ctPic from '../../pictures/chess-tracker.png'
 import mPPic from '../../pictures/minecraft-pizza.png'
 import wCPic from '../../pictures/wordle-clone.png'
+import mlbPic from '../../pictures/mlb-stats.png'
 export default function Projects(){
     return(
-        <section style={{justifyContent: "space-around"}}>
+        <section >
             <h1>Projects I've worked on</h1>
-            <div className='container-row'>
+            <div className='grid-container'>
+                <div className='item'>
+                    <h2>Major League Baseball Statistics Application</h2>
+                    <img src={mlbPic} alt="Major League Baseball Statistics Application"/>
+                </div>
                 <div className='item'>
                     <h2>Wordle Clone</h2>
                     <img src={wCPic}alt="Wordle Clone"/>
@@ -38,7 +43,7 @@ export default function Projects(){
                     <img src={mPPic}alt="Minecraft: Pizza Mod"/>
                 </div>
             </div>
-            <div>
+            <div className='buttons'>
                 <button className='button1'><a href = "https://github.com/ParkerHansen7777?tab=repositories" target="_blank" rel="noreferrer">Github</a></button>
                 <button className='button2'><a href = "https://www.linkedin.com/in/parkerhansen/" target="_blank"rel="noreferrer">LinkedIn</a></button>
                 <button className='button3'><a href = "https://github.com/ParkerHansen7777/React_APP" target="_blank" rel="noreferrer">Portfolio Repository</a></button>
