@@ -6,7 +6,7 @@ import Projects from './components/Projects/projects';
 import Resume from './components/Resume/resume';
 import Contact from './components/Contact/contact';
 
-export default function Npp(){
+export default function App(){
 
     return(
         <>
