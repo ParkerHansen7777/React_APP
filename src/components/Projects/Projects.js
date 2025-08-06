@@ -11,8 +11,9 @@ export default function Projects(){
             <h1>Projects I've worked on</h1>
             <div className='grid-container'>
                 <div className='item'>
-                    <h2>Major League Baseball Statistics Application</h2>
+                    <h2>(WIP) MLB Statistics Application</h2>
                     <img src={mlbPic} alt="Major League Baseball Statistics Application"/>
+                    <a className='link' href='' style={{display: 'block'}}>Deployment Coming Soon</a>
                 </div>
                 <div className='item'>
                     <h2>Wordle Clone</h2>
