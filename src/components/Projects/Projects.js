@@ -4,11 +4,17 @@ import laPic from '../../pictures/luxury-autos.png'
 import ctPic from '../../pictures/chess-tracker.png'
 import mPPic from '../../pictures/minecraft-pizza.png'
 import wCPic from '../../pictures/wordle-clone.png'
+import mlbPic from '../../pictures/mlb-stats.png'
 export default function Projects(){
     return(
-        <section style={{justifyContent: "space-around"}}>
-            <h1>Projects I've worked on</h1>
-            <div className='container-row'>
+        <section >
+            <h1>Projects I've Worked On</h1>
+            <div className='grid-container'>
+                <div className='item'>
+                    <h2>(WIP) MLB Statistics Application</h2>
+                    <img src={mlbPic} alt="Major League Baseball Statistics Application"/>
+                    <a className='link' href='https://mlb-stats-interface.onrender.com/' style={{display: 'block'}}>Deployed HERE *CLICK ME*</a>
+                </div>
                 <div className='item'>
                     <h2>Wordle Clone</h2>
                     <img src={wCPic}alt="Wordle Clone"/>
@@ -38,7 +44,7 @@ export default function Projects(){
                     <img src={mPPic}alt="Minecraft: Pizza Mod"/>
                 </div>
             </div>
-            <div>
+            <div className='buttons'>
                 <button className='button1'><a href = "https://github.com/ParkerHansen7777?tab=repositories" target="_blank" rel="noreferrer">Github</a></button>
                 <button className='button2'><a href = "https://www.linkedin.com/in/parkerhansen/" target="_blank"rel="noreferrer">LinkedIn</a></button>
                 <button className='button3'><a href = "https://github.com/ParkerHansen7777/React_APP" target="_blank" rel="noreferrer">Portfolio Repository</a></button>
