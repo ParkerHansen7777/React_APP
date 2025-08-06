@@ -8,12 +8,12 @@ import mlbPic from '../../pictures/mlb-stats.png'
 export default function Projects(){
     return(
         <section >
-            <h1>Projects I've worked on</h1>
+            <h1>Projects I've Worked On</h1>
             <div className='grid-container'>
                 <div className='item'>
                     <h2>(WIP) MLB Statistics Application</h2>
                     <img src={mlbPic} alt="Major League Baseball Statistics Application"/>
-                    <a className='link' href='' style={{display: 'block'}}>Deployment Coming Soon</a>
+                    <a className='link' href='https://mlb-stats-interface.onrender.com/' style={{display: 'block'}}>Deployed HERE *CLICK ME*</a>
                 </div>
                 <div className='item'>
                     <h2>Wordle Clone</h2>
