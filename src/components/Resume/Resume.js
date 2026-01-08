@@ -1,6 +1,6 @@
 import React from 'react';
 //import './Resume.css';
-import SinglePage from "./SinglePage/singlePage";
+import SinglePage from "./SinglePage/SinglePage";
 import resumePDF from "./ParkerHansenResume.pdf";
 
 

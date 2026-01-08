@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Landing from './components/Landing/landing';
-import About from './components/About/about';
-import Projects from './components/Projects/projects';
-import Resume from './components/Resume/resume';
-import Contact from './components/Contact/contact';
+import Landing from './components/Landing/Landing';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Resume from './components/Resume/Resume';
+import Contact from './components/Contact/Contact';
 
 export default function App(){
 
