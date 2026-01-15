@@ -11,25 +11,65 @@ a{
   color: rgb(99, 104, 244);
 }
 
-#about-me-pic{
-  box-sizing: border-box;
-  border-radius: 20px;
-  max-width: 400px; 
-  padding: 10px;
-  margin: auto;
-  
-}
 
-#about-me-text{
+
+.about-card {
+  max-width: 1200px;
   width: 100%;
-  max-width: 800px;
-  
+
+  padding: 3rem;
+  border-radius: 28px;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, 0.35);
 }
 
-#about-me-text h1, #about-me-text p{
-  justify-self: center;
-  margin-top: 0;
-  opacity: 0.75; 
+#about-me-pic {
+  max-width: 360px;
+  width: 100%;
+
+  border-radius: 22px;
+  padding: 0;
+
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.4);
+
+  transition: transform 0.3s ease;
+}
+
+#about-me-pic:hover {
+  transform: translateY(-6px);
+}
+
+#about-me-text {
+  max-width: 640px;
+}
+
+#about-me-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1.25rem;
+  opacity: 0.95;
+}
+
+#about-me-text p {
+  font-size: 1.15rem;
+  line-height: 1.75;
+  opacity: 0.85;
+}
+
+.about-layout {
+  align-items: center;
+  gap: 3rem;
+}
+
+.arrow {
+  font-size: 1.5rem;
+  margin-top: 0.25rem;
+
+  animation: bounce 1.6s infinite;
 }
 
 body {
@@ -112,6 +152,11 @@ h2 {
   justify-content: center;
 }
 
+.highlight {
+  color: white;
+  position: relative;
+}
+
 img{
   max-width: 90%;
   height: auto;
@@ -124,6 +169,36 @@ img{
 
 .link:hover {
   text-shadow: 2px 2px 5px black;
+}
+
+.landing-section {
+  padding: 0;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  gap: 1rem;
+}
+
+.landing-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.scroll-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 0.9rem;
+  opacity: 0.7;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 
 section {
@@ -144,4 +219,20 @@ section:nth-of-type(even) {
 section:nth-of-type(odd) {
   color: rgb(99, 104, 244);
   background: rgb(58, 61, 150);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
 }
