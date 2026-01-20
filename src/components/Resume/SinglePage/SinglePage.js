@@ -1,6 +1,5 @@
 import React from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import './SinglePage.css'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 export default function SinglePage(props) {
   
@@ -8,13 +7,13 @@ export default function SinglePage(props) {
 
   return (
     <>
-      <div class="pdf">
-      <Document
-        file={pdf}
-        options={{ workerSrc: "/pdf.worker.js" }}
-      >
-        <Page pageNumber={1} renderAnnotationLayer={false} renderTextLayer={false}/>
-      </Document>
+      <div className="pdf-container">
+        <Document
+          file={pdf}
+          options={{ workerSrc: "/pdf.worker.js" }}
+        >
+          <Page pageNumber={1} scale={1.6}renderAnnotationLayer={false} renderTextLayer={false}/>
+        </Document>
       </div>
     </>
   );

@@ -5,50 +5,72 @@ import ctPic from '../../pictures/chess-tracker.png'
 import mPPic from '../../pictures/minecraft-pizza.png'
 import wCPic from '../../pictures/wordle-clone.png'
 import mlbPic from '../../pictures/mlb-stats.png'
-export default function Projects(){
-    return(
-        <section >
-            <h1>Projects I've Worked On</h1>
-            <div className='grid-container'>
-                <div className='item'>
-                    <h2>(WIP) MLB Statistics Application</h2>
-                    <img src={mlbPic} alt="Major League Baseball Statistics Application"/>
-                    <a className='link' href='https://mlb-stats-interface.onrender.com/' style={{display: 'block'}}>Deployed HERE *CLICK ME*</a>
-                </div>
-                <div className='item'>
-                    <h2>Wordle Clone</h2>
-                    <img src={wCPic}alt="Wordle Clone"/>
-                    <a className='link' href='https://wordle-clone-psi-two.vercel.app/' style={{display: 'block'}}>Deployed HERE *CLICK ME*</a>
-                </div>
-                <div className='item'>
-                    <h2>Car Dealership Catalog</h2>
-                    <img src={laPic} alt="Car Dealership Catalog"/>
-                    <a className='link' href='https://cardealer-frontend.onrender.com/' style={{display: 'block'}}>Deployed HERE *CLICK ME*</a>
-                    
-                </div>
-                <div className='item'>
-                    <h2>Chess Game Tracker</h2>
-                    <img src={ctPic} alt="Chess Game Tracker"/>
-                    
-                    <a className='link' href='https://gametracker-frontend.onrender.com/' style={{display: 'block'}}>Deployed HERE *CLICK ME*</a>
-                    
-                </div>
-                <div className='item'>
-                    <h2>Task Manager</h2>
-                    <img src={tmPic} alt="Task Manager"/>
-                    <a className='link' href='https://taskmanager-frontend-8dip.onrender.com/' style={{display: 'block'}}>Deployed HERE *CLICK ME*</a>
-                    
-                </div>
-                <div className='item'>
-                    <h2>Minecraft: Pizza Mod</h2>
-                    <img src={mPPic}alt="Minecraft: Pizza Mod"/>
-                </div>
-            </div>
-            <div className='buttons'>
-                <button className='button1'><a href = "https://github.com/ParkerHansen7777?tab=repositories" target="_blank" rel="noreferrer">Github</a></button>
-                <button className='button2'><a href = "https://www.linkedin.com/in/parkerhansen/" target="_blank"rel="noreferrer">LinkedIn</a></button>
-                <button className='button3'><a href = "https://github.com/ParkerHansen7777/React_APP" target="_blank" rel="noreferrer">Portfolio Repository</a></button>
-            </div>
-        </section>
-    )
+
+export default function Projects() {
+  return (
+    <section className="projects-section">
+      <div className="projects-card">
+        <h1 className="projects-title">Projects I’ve Worked On</h1>
+
+        <div className="grid-container projects-grid">
+          <div className="project-card">
+            <h2>(WIP) MLB Statistics App</h2>
+            <img src={mlbPic} alt="MLB Statistics Application" />
+            <a className="project-link" href="https://mlb-stats-interface.onrender.com/" target="_blank" rel="noreferrer">
+              View Project →
+            </a>
+          </div>
+
+          <div className="project-card">
+            <h2>Wordle Clone</h2>
+            <img src={wCPic} alt="Wordle Clone" />
+            <a className="project-link" href="https://wordle-clone-psi-two.vercel.app/" target="_blank" rel="noreferrer">
+              View Project →
+            </a>
+          </div>
+
+          <div className="project-card">
+            <h2>Car Dealership Catalog</h2>
+            <img src={laPic} alt="Car Dealership Catalog" />
+            <a className="project-link" href="https://cardealer-frontend.onrender.com/" target="_blank" rel="noreferrer">
+              View Project →
+            </a>
+          </div>
+
+          <div className="project-card">
+            <h2>Chess Game Tracker</h2>
+            <img src={ctPic} alt="Chess Game Tracker" />
+            <a className="project-link" href="https://gametracker-frontend.onrender.com/" target="_blank" rel="noreferrer">
+              View Project →
+            </a>
+          </div>
+
+          <div className="project-card">
+            <h2>Task Manager</h2>
+            <img src={tmPic} alt="Task Manager" />
+            <a className="project-link" href="https://taskmanager-frontend-8dip.onrender.com/" target="_blank" rel="noreferrer">
+              View Project →
+            </a>
+          </div>
+
+          <div className="project-card">
+            <h2>Minecraft: Pizza Mod</h2>
+            <img src={mPPic} alt="Minecraft Pizza Mod" />
+          </div>
+        </div>
+
+        <div className="projects-actions">
+          <a className="button1" href="https://github.com/ParkerHansen7777?tab=repositories" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <a className="button2" href="https://www.linkedin.com/in/parkerhansen/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <a className="button3" href="https://github.com/ParkerHansen7777/React_APP" target="_blank" rel="noreferrer">
+            Portfolio Repo
+          </a>
+        </div>
+      </div>
+    </section>
+  )
 }
