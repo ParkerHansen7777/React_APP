@@ -28,19 +28,16 @@ export default function Projects() {
               View Project →
             </a>
           </div>
-
+          
+          <div className="project-card">
+            <h2>Minecraft: Pizza Mod</h2>
+            <img src={mPPic} alt="Minecraft Pizza Mod" />
+          </div>
+          
           <div className="project-card">
             <h2>Car Dealership Catalog</h2>
             <img src={laPic} alt="Car Dealership Catalog" />
             <a className="project-link" href="https://cardealer-frontend.onrender.com/" target="_blank" rel="noreferrer">
-              View Project →
-            </a>
-          </div>
-
-          <div className="project-card">
-            <h2>Chess Game Tracker</h2>
-            <img src={ctPic} alt="Chess Game Tracker" />
-            <a className="project-link" href="https://gametracker-frontend.onrender.com/" target="_blank" rel="noreferrer">
               View Project →
             </a>
           </div>
@@ -52,11 +49,15 @@ export default function Projects() {
               View Project →
             </a>
           </div>
-
+          
           <div className="project-card">
-            <h2>Minecraft: Pizza Mod</h2>
-            <img src={mPPic} alt="Minecraft Pizza Mod" />
+            <h2>Chess Game Tracker</h2>
+            <img src={ctPic} alt="Chess Game Tracker" />
+            <a className="project-link" href="https://gametracker-frontend.onrender.com/" target="_blank" rel="noreferrer">
+              View Project →
+            </a>
           </div>
+          
         </div>
 
         <div className="projects-actions">
